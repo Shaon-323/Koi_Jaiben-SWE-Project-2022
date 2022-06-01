@@ -1,0 +1,103 @@
+.topBar {
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 0px;
+}
+
+.navbar {
+    justify-content: center !important;
+    background-color: none;
+    color: cadetblue;
+    
+}
+
+.navbar .nav-item .nav-link:hover {
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+}
+
+#navbarNav {
+    justify-content: center !important;
+}
+
+.dropdown {
+    list-style: none;
+    padding-left: 50px !important;
+
+}
+
+.formNslider {
+    padding: 20px 0px;
+    background-color: aliceblue;
+}
+
+
+
+.formSubmitBtn {
+    width: 100%;
+}
+
+
+/*footer*/
+.ft{
+    padding: 2% 20%;
+    background-color: #19283f;
+    text-align: center;
+}
+.ft .footLogo img{
+    width: 35%;
+}
+.footLogo {
+    color: white;
+    text-align: left;
+}
+
+.links{
+    color: white;
+    text-align: left;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.aboutLinks{
+    color: white;
+    text-align: left;
+}
+.aboutLinks a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    color: white;
+    text-align: left;
+}
+.contact i{
+
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 3% 3.5%;
+    background-color: #347cd2;
+}
+.fa-twitter{
+    padding: 3% 3%;
+    background-color: #1ec4ff;
+}
+.fa-google-plus-g{
+    padding: 3% 3%;
+    background-color: #ff4032;
+}
+.fa-globe{
+    padding: 3% 3%;
+    background-color: #ff3298;
+}
+.top{
+    position: fixed;
+    bottom: 4%;
+    right: 5%;
+   font-size: 50px;
+    color: #ff4032;
+}

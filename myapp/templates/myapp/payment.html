@@ -1,0 +1,20 @@
+{% extends 'myapp/base.html' %}
+{% block content %}
+    <h1>Welcome to Koi Jaiben Payment Gateway</h1>
+    <form action="{% url 'payment' %}" method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="from" class="form-label">Coach Number</label>
+            <input name='bus_id' class="form-control" type="hidden" value="{{book.id}}">
+        </div>
+        <div class="mb-3">
+            <label for="to" class="form-label">Card Number / MFS Number</label>
+            <input name='num' class="form-control" type="number">
+        </div>
+        <div class="mb-3">
+            <label for="to" class="form-label">Amount</label>
+            <input name='amount' class="form-control" type="number">
+        </div>
+        <button type="submit" class="btn btn-primary formSubmitBtn">Submit</button>
+    </form>
+{% endblock %}

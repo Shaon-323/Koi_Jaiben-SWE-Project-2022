@@ -1,0 +1,53 @@
+{% extends 'myapp/base.html' %}
+{% block tittle %}Home{% endblock tittle %}
+{% block content %}
+<section id="hero" style="background-image: url(static/mysite/images/busBg.jpg) !important;
+text-align: center !important; padding: 300px; background-size: cover;">
+    <div class="heroText"  >
+        <h1 style="font-weight: 800;
+        font-size: 6em; margin-top:-22px">WELCOME</h1>
+        <h3 style="font-weight: 600;
+        font-size: 2em;">TICKETING IN YOUR HANDS</h3>
+    </div>
+</section>
+
+<!--    footer-->
+<section id="footer" style="padding-top: 80px; text-align: center; background-color: cadetblue; color: white;">
+    <div class="container-fluid ft">
+        <div class="row">
+            <div class="col-lg-3 footLogo">
+                <img src="images/Logo.png" alt=""><br><br>
+                <p>Koi Jaiben, owned and operated by Koi Jaiben Limited, is Bangladesh’s largest online ticket destination marketplave, where any one can buy and sell tickets very easier and smartly</p><br>
+                <p>Created by <span style="color:#33d1cc">Koi Jaiben</span>, Dhaka, Bangladesh</p>
+                <br><br>
+                <p>&#169;2022-<span style="color: #ffc501 ;">Koi Jaiben.inc</span></p>
+            </div>
+            <div class="col-lg-2 links">
+            <h3>Links</h3><br>
+            <a href="index.html">Home</a><br><br>
+            <a href="index.html">Our Services</a><br><br>
+            <a href="index.html">Portfolios</a><br><br>
+            <a href="index.html">Testimonials</a><br><br>
+            <a href="index.html">Support</a><br><br>
+            <a href="index.html">Terms & Conditions</a><br><br>
+            </div>
+            <div class="col-lg-2 aboutLinks">
+                <h3>About Us</h3><br>
+                 <a href="#">Sign In</a><br><br>
+                 <a href="#">Register</a><br><br>
+                 <a href="#">About Us</a><br><br>
+                 <a href="#">Blog</a><br><br>
+                 <a href="#">Contact Us</a><br><br>
+            </div>
+            <div class="col-lg-5 contact">
+                <h3>Contact</h3><br>
+                <p>Get in touch with us. We are waiting for you call or message</p>
+                <br><br>
+                <div class="mailBtn">contact@koijaiben.com</div>
+                <br><br><br><br><br>
+                <i class="fab fa-facebook-f"></i>&nbsp; <i class="fab fa-twitter"></i>&nbsp; <i class="fab fa-google-plus-g"></i>&nbsp; <i class="fas fa-globe"></i>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
